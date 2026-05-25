@@ -1,0 +1,35 @@
+h2{
+    color: crimson;
+}
+h3{
+    color: brown;
+}
+h4{
+    color: blueviolet;
+    text-align: center;
+}
+span{
+    color: darkcyan;
+}
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 400px;
+    border: 3px solid cadetblue;
+    border-radius: 10px;
+    padding:10px;
+    margin: 10px;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media(max-width:450px){
+    #pets{
+        flex-wrap: wrap;
+    }
+}
